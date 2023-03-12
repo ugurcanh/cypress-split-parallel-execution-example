@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/ugurcanh/cypress-split-parallel-execution-example#readme",
   "dependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "^12.7.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "save-dev": "^0.0.1-security"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }

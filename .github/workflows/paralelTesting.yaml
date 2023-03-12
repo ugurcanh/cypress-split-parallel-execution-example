@@ -1,0 +1,13 @@
+name: Parallel Tests
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    # https://github.com/bahmutov/cypress-workflows
+    uses: bahmutov/cypress-workflows/.github/workflows/split.yml@v1
+    with:
+      n: 3
+      browser: chrome
+      spec: cypress/integration/FeatureBasedTests/**/*.feature
