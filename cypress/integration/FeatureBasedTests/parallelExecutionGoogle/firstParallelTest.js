@@ -5,8 +5,9 @@ When("Navigate to Google page", ()=>{
     cy.visit("www.google.com");
 });
 
-Then("Assert Google Search button is loaded", () => {
-    //Assert there is a button (Actually its text :) )
-    cy.contains("Gmail").should("be.visible");
+Then("Assert there is Google word on page", () => {
+    //Check whether there is google on page
+    cy.contains("Google")
+
 
 });

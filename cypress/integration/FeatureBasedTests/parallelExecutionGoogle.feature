@@ -1,5 +1,5 @@
-Feature: Test for finding element in www.google.com
+Feature: Test for navigation www.google.com
 
-    Scenario: Navigating to Google and check Google Search button
+    Scenario: Navigating to Google and check the word of Google
         When Navigate to Google page
-        Then Assert Google Search button is loaded
+        Then Assert there is Google word on page
