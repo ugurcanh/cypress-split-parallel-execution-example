@@ -1,4 +1,4 @@
-# cypress-split-parallel-execution-example
+# :shamrock: cypress-split-parallel-execution-example :shamrock:
 
 Hey everyone!
 
